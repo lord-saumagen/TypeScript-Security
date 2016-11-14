@@ -667,7 +667,7 @@ declare namespace TS {
         * @class TS.Security.AES
         *
         * @description This class is an implements of the ADVANCED ENCRYPTION STANDARD (AES) as described in the FIPS
-        *  publication fips-197, 'Announcing the ADVANCED ENCRYPTION STANDARD (AES)'. The cipher mode decribed in that
+        *  publication fips-197, 'Announcing the ADVANCED ENCRYPTION STANDARD (AES)'. The cipher mode described in that
         *  publication is also identical to the ELECTRONIC CODE BOOK (ECB) operation mode described in the NIST
         *  publication 800-38a, 'Recommendation for Block Cipher Modes of Operation'.
         *
@@ -694,7 +694,7 @@ declare namespace TS {
             /**
             * @constructor
             *
-            * @description Create a new AES instance with the key given in argument 'keyByteArray'. The 'keyByteArray' must
+            * @description Creates a new AES instance with the key given in argument 'keyByteArray'. The 'keyByteArray' must
             *  have a total length of 128, 192 or 256 bits. That means the 'keyByteArray' array must have a length of either
             *  16, 24 or 32. Using a key which doesn't comply with that rule will raise an exception.
             *
